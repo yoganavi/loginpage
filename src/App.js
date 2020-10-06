@@ -16,8 +16,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React coba 1
+          Learn React coba 1adad
+          add
+
         </a>
+        <p>slamat datang</p>
+        <p>slamat datang</p>
+        <p>slamat datang</p>
+        <p>slamat datang</p>
       </header>
     </div>
   );
