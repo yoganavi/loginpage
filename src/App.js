@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Form from './components/form';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -14,7 +15,7 @@ function App() {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer" 
         >
           Learn React coba 1adad
           add
@@ -25,8 +26,9 @@ function App() {
         <p>slamat datang</p>
         <p>slamat datang</p>
       </header>
+      <h1>Todo</h1>
+      <Form />
     </div>
   );
 }
 
-export default App;
